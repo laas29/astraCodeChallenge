@@ -1,7 +1,7 @@
 // https://placekeanu.com/[width]/[height]*/[y/g]*
 import { readFile } from 'fs';
 
-const getKeanu = async (width: number, height: number, young: boolean, grayScale: boolean): Promise<FileReader["result"]> => {
+const getKeanu = async (width: number, height: number, young: boolean, grayScale: boolean): Promise<String> => {
     let pictureOptions = young ? 'y' : '';
     pictureOptions = pictureOptions + grayScale ? 'g' : '';
     const url = `https://placekeanu.com/${width}/${height}/${pictureOptions}`;
