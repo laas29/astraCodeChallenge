@@ -1,15 +1,20 @@
-import getKeanu from "./database";
+import getKeanuPicture from "./database";
 
 const Resolvers = {
   Query: {
-    getKeanuPicture: async (_: any, args: any) => {
-      let svgPicture = await getKeanu(args.width, args.height, args.young, args.grayScale);
-
+    keanuPicture: async (_: any, args: any) => {
+      const {
+        width,
+        height,
+        young,
+        grayScale
+      } = args;
+      const svgPicture = await getKeanuPicture(width, height, young, grayScale);
       return {
-        width: args.width,
-        height: args.height,
-        young: args.young,
-        grayScale: args.grayScale,
+        width,
+        height,
+        young,
+        grayScale,
         svgPicture,
       }
     },

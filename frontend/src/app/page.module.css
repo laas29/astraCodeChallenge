@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    background: rgb(0, 0, 6);
+    height: 100vh;
+}
+
+.main .description {
+    margin: 30px 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.main .description .error {
+    padding: 20px;
+    margin: 15px;
+    background-color: #800;
+    color: #fff;
+    box-shadow: 0px 100px 500px rgb(161, 7, 7);
+}
+
+.main .description label {
+    display: block;
+    padding: 10px 0;
+}
+
+.main .description input {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main .description form>input {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.loadingMsg {
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+.picture {
+    box-shadow: 0px 100px 500px rgb(43, 7, 161);
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
