@@ -29,3 +29,6 @@ Open a terminal and execute:
 `npm run dev`
 
 Once the front end app is running please access to `http://localhost:3000/`
+
+![image](https://user-images.githubusercontent.com/6174109/229463500-319486ce-231f-4508-9230-68d52e73f550.png)
+
