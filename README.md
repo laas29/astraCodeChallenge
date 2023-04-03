@@ -37,4 +37,5 @@ Open a terminal and execute:
 Once the frontend app is running, then access to `http://localhost:3000/`
 
 ![image](https://user-images.githubusercontent.com/6174109/229463500-319486ce-231f-4508-9230-68d52e73f550.png)
+![image](https://user-images.githubusercontent.com/6174109/229467920-3230a894-5667-4a1d-9f52-96621526fa18.png)
 
