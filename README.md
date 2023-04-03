@@ -16,7 +16,13 @@ Open a terminal and execute:
 
 #### To run it through npm
 
+`cd backend/`
+
 `npm run dev`
+
+You can verify if the application is running when the following message is displayed in the terminal or docker logs (depending on the way you use to run it):
+
+`Apollo server running at http://localhost:4000/graphql`
 
 If you want to edit the queries then access to `http://localhost:4000/graphql`
 
